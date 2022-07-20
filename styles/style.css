@@ -296,7 +296,22 @@ a:visited {
 }
 
 .footer__social {
-  background-color: #fff;
+  /* background-color: #fff; */
+  text-align: center;
+}
+
+.footer__icon {
+  color: var(--clr-light-1);
+  font-size: 2rem;
+  transition: 0.3s ease-in;
+}
+
+.footer__icon:nth-child(2) {
+  margin: 0 3rem;
+}
+
+.footer__icon:hover {
+  color: var(--clr-secondary);
 }
 
 /* Animation */
